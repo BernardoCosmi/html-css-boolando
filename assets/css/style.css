@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -15,6 +14,7 @@ header{
     background-color: #FC6800;
     color: white;
     margin-top: 0px;
+    z-index: 1;
 }
 .nav-flex{
     width: 75%;
@@ -63,6 +63,7 @@ header{
 /* Cards */
 .product{
     width: 32%;
+    position: relative;
 }
 .product > img{
     width: 100%;
@@ -124,4 +125,36 @@ div>h4{
     height: 18px;
 }
 
-/*  */
+/* Sconti, sostenibilità e preferiti */
+.banner_bassi{
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    min-width: 70%;
+    color: white;
+}
+.discount{
+    padding:1% 1%;
+    text-align: center;
+    background-color: red;
+}
+.sustainability{
+    padding:1% 5%;
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+.favourite{
+    position: absolute;
+    top: 10%;
+    right: 0;
+    font-size: xx-large;
+    color: white;
+    padding: 2%;
+    background-color: white;
+    color: black;
+}
+
+.favourite:hover{
+    color: red;
+}
