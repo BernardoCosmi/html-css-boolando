@@ -2,4 +2,90 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Header e Nav */
+header{
+    position: fixed;
+    height: 3em;
+    width: 100%;
+    background-color: #FC6800;
+    color: white;
+    margin-top: 0;
+}
+.nav-flex{
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+}
+/* Categorie */
+.list-menù-flex{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    font-weight: bold;
+}
+/* Logo Boolean */
+.logo{
+    max-height: 2em;
+}
+.logo > img{
+    max-height: 100%;
+    max-width: 100%;
+    padding: 5px;
+}
+/* Icon Account */
+.account_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4em;
+    height: 1.5em;
+    gap: 5px;
+}
+
+/* Container */
+.container-flex{
+    display: flex;
+    width: 75%;
+    height: 1000px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* Cards */
+.product{
+    width: 32%;
+    height: 50%;
+}
+.product > img{
+    width: 100%;
+}
+.marca{
+    display: block;
+    text-transform: capitalize;
+    font-size: smaller;
+}
+.model{
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.price{
+    display: inline-block;
+    font-weight: bold;
+    color: red;
+    font-size: smaller;
+}
+.old_price{
+    text-decoration: line-through;
+    font-size: smaller;
 }
