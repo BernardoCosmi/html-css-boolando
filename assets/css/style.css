@@ -2,18 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Header e Nav */
 header{
     position: fixed;
-    height: 3em;
+    top: 0;
+    height: 5%;
     width: 100%;
     background-color: #FC6800;
     color: white;
-    margin-top: 0;
+    margin-top: 0px;
 }
 .nav-flex{
     width: 75%;
@@ -22,7 +23,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0;
 }
 /* Categorie */
 .list-menù-flex{
@@ -64,7 +64,6 @@ header{
 /* Cards */
 .product{
     width: 32%;
-    height: 50%;
 }
 .product > img{
     width: 100%;
@@ -84,6 +83,7 @@ header{
     font-weight: bold;
     color: red;
     font-size: smaller;
+    padding-bottom: 30px;
 }
 .old_price{
     text-decoration: line-through;
