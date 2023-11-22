@@ -68,6 +68,16 @@ header{
 .product > img{
     width: 100%;
 }
+.first_img:hover{
+    position: relative;
+    z-index: -2;
+}
+.second_img{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
 .marca{
     display: block;
     text-transform: capitalize;
